@@ -13,6 +13,7 @@
 		955A52D51C0DC6ED00819B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955A52D31C0DC6ED00819B23 /* Main.storyboard */; };
 		955A52D71C0DC6ED00819B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A52D61C0DC6ED00819B23 /* Assets.xcassets */; };
 		955A52DA1C0DC6ED00819B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955A52D81C0DC6ED00819B23 /* LaunchScreen.storyboard */; };
+		955A52E31C0F90A200819B23 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955A52E21C0F90A200819B23 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		955A52D61C0DC6ED00819B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955A52D91C0DC6ED00819B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955A52DB1C0DC6ED00819B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A52E11C0F90A200819B23 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		955A52E21C0F90A200819B23 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				955A52CE1C0DC6ED00819B23 /* AppDelegate.m */,
 				955A52D01C0DC6ED00819B23 /* ViewController.h */,
 				955A52D11C0DC6ED00819B23 /* ViewController.m */,
+				955A52E11C0F90A200819B23 /* AboutViewController.h */,
+				955A52E21C0F90A200819B23 /* AboutViewController.m */,
 				955A52D31C0DC6ED00819B23 /* Main.storyboard */,
 				955A52D61C0DC6ED00819B23 /* Assets.xcassets */,
 				955A52D81C0DC6ED00819B23 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				955A52D21C0DC6ED00819B23 /* ViewController.m in Sources */,
 				955A52CF1C0DC6ED00819B23 /* AppDelegate.m in Sources */,
+				955A52E31C0F90A200819B23 /* AboutViewController.m in Sources */,
 				955A52CC1C0DC6ED00819B23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nn.BullsEye;
@@ -273,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nn.BullsEye;
@@ -299,6 +307,7 @@
 				955A52E01C0DC6ED00819B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
